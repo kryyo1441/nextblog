@@ -1,7 +1,10 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1>goo kha lode</h1>
+    <div className="py-6 ">
+      <h1 className="text-4xl font-bold tracking-light text-center mb-8">
+        Latest Posts
+      </h1>
+    </div>
   );
 }
